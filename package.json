@@ -10,7 +10,8 @@
     "build:clean": "rm -rf dist",
     "build:dist": "babel -d dist src",
     "build:flow": "flow-copy-source -v src dist",
-    "build": "npm run build:clean && npm run build:dist && npm run build:flow"
+    "build": "npm run build:clean && npm run build:dist && npm run build:flow",
+    "prepublish": "npm run build"
   },
   "dependencies": {
     "graphql-tools": "^2.19.0",
