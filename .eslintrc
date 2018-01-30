@@ -1,0 +1,40 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:flowtype/recommended",
+    "problems",
+    "plugin:prettier/recommended",
+    "prettier",
+    "prettier/flowtype"
+  ],
+  "plugins": ["import", "flowtype"],
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "settings": {
+    "flowtype": {
+      "onlyFilesWithFlowAnnotation": true
+    }
+  },
+  "rules": {
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "ignore"
+      }
+    ],
+    "prettier/prettier": ["error", {
+      "singleQuote": true,
+      "trailingComma": "es5",
+      "bracketSpacing": false,
+      "jsxBracketSameLine": true,
+      "printWidth": 80
+    }]
+  }
+}

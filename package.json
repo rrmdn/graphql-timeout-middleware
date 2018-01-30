@@ -1,0 +1,31 @@
+{
+  "name": "graphql-timeout-middleware",
+  "version": "0.1.0",
+  "description": "GraphQL Middleware that prevents slow resolvers from damaging the response speed of your GraphQL Server",
+  "main": "dist/index.js",
+  "repository": "https://github.com/rromadhoni/graphql-timeout-middleware",
+  "author": "Rizki Romadhoni",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-tools": "^2.19.0",
+    "invariant": "^2.2.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.39",
+    "@babel/core": "^7.0.0-beta.39",
+    "@babel/node": "^7.0.0-beta.39",
+    "@babel/plugin-transform-flow-strip-types": "^7.0.0-beta.39",
+    "@babel/preset-env": "^7.0.0-beta.39",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.16.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-problems": "^0.0.2",
+    "eslint-plugin-flowtype": "^2.42.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-prettier": "^2.5.0",
+    "faker": "^4.1.0",
+    "flow-bin": "^0.64.0",
+    "graphql-add-middleware": "^0.1.3",
+    "prettier": "^1.10.2"
+  }
+}
